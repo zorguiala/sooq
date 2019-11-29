@@ -1,0 +1,36 @@
+<?php
+
+return [
+
+    'lang_search_what_are_you_looking' => 'على ماذا تبحث؟',
+    'lang_city'                        => 'المدينة',
+    'lang_state'                       => 'الولاية',
+    'lang_country'                     => 'الدولة',
+    'lang_max_price'                   => 'أقصى ثمن',
+    'lang_min_price'                   => 'أقل ثمن',
+    'lang_sort_by'                     => 'ترتيب حسب',
+    'lang_category'                    => 'التصنيف',
+    'lang_all_categories'              => 'كل التصنيفات',
+    'lang_any_city'                    => 'كل المدن',
+    'lang_any_state'                   => 'كل الولايات',
+    'lang_any_country'                 => 'كل الدول',
+    'lang_newest'                      => 'الأحدث',
+    'lang_oldest'                      => 'الأقدم',
+    'lang_featured'                    => 'متميز',
+    'lang_views'                       => 'المشاهدات',
+    'lang_rating'                      => 'الإعجابات',
+    'lang_search'                      => 'إبحث',
+    'lang_top_interesting'             => 'إعلانات متميزة',
+    'lang_top_interesting_p'           => '.تصفح افضل الاعلانات من طرف باعة موثوق بهم',
+    'lang_card_featured'               => 'متميز',
+    'lang_latest_ads'                  => 'اَخر الإعلانات',
+    'lang_latest_ads_p'                => '.تصفح اَخر الإعلانات المضافة حديثا',
+    'lang_see_more'                    => 'شاهد المزيد',
+    'lang_browse_categories'           => 'تصفح التصنيفات',
+    'lang_browse_categories_p'         => '.مشاهدة الإعلانات حسب التصنيفات',
+    'lang_stat_submissions'            => 'إعلان',
+    'lang_stat_stores'                 => 'متجر',
+    'lang_stat_users'                  => 'عضو',
+    'lang_stat_views'                  => 'مشاهدة',
+
+];

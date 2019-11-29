@@ -1,0 +1,100 @@
+{
+    "name": "laravel/laravel",
+    "description": "The Laravel Framework.",
+    "keywords": ["framework", "laravel"],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": ">=7.0",
+        "laravel/framework": "5.5.*",
+        "nesbot/carbon": "^1.22.1",
+        "intervention/image": "2.4.*",
+        "jenssegers/agent": "2.6.*",
+        "simplesoftwareio/simple-qrcode": "2.*",
+        "stichoza/google-translate-php": "3.2.*",
+        "larapack/config-writer": "1.*",
+        "thujohn/twitter": "2.2.*",
+        "laravel/socialite": "^3.0",
+        "pragmarx/firewall": "2.2.*",
+        "geoip2/geoip2": "2.8.*",
+        "netshell/paypal": "dev-master",
+        "symfony/event-dispatcher": "3.*",
+        "mews/purifier": "^2.0",
+        "artesaos/seotools": "^0.11.1",
+        "snowfire/beautymail": "dev-master",
+        "guzzlehttp/guzzle": "6.*",
+        "nexmo/client": "1.2.*",
+        "propaganistas/laravel-phone": "^3.0",
+        "2checkout/2checkout-php": "^0.3.1",
+        "sammyk/laravel-facebook-sdk": "3.5.*",
+        "albertcht/invisible-recaptcha": "1.*",
+        "unicodeveloper/laravel-paystack": "1.0.*",
+        "mollie/laravel-mollie": "1.*",
+        "spatie/laravel-newsletter": "4.*",
+        "cartalyst/stripe-laravel": "7.*",
+        "socialiteproviders/instagram": "^3.0",
+        "socialiteproviders/pinterest": "^3.0",
+        "socialiteproviders/linkedin": "^3.0",
+        "pragmarx/google2fa": "^2.0",
+        "razorpay/razorpay": "^2.2",
+        "mattketmo/email-checker": "1.5.*",
+        "knplabs/gaufrette": "^0.5.0",
+        "kim/defender": "^1.0",
+        "socialiteproviders/vkontakte": "^3.0",
+        "laravelhungary/laravel-barion": "^1.1",
+        "laravel-notification-channels/smsc-ru": "^1.1",
+        "cashuanony/phpanonymous": "dev-master",
+        "league/flysystem-aws-s3-v3": "^1.0",
+        "aws/aws-php-sns-message-validator": "^1.4",
+        "doctrine/cache": "^1.6",
+        "league/flysystem-rackspace": "^1.0",
+        "jrm2k6/cloudder": "^0.4.0",
+        "bacon/bacon-qr-code": "^1.0",
+        "artistas/laravel-pagseguro": "1.6.*",
+        "anandsiddharth/laravel-paytm-wallet": "^1.0",
+        "toolkito/larasap": "^1.2",
+        "cknow/laravel-money": "^2.4",
+        "laravel/passport": "~4.0",
+        "consoletvs/charts": "5.*",
+        "renatomarinho/laravel-page-speed": "^1.8"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "1.7.*",
+        "mockery/mockery": "1.*",
+        "phpunit/phpunit": "6.*",
+        "symfony/css-selector": "3.*",
+        "symfony/dom-crawler": "3.*"
+    },
+    "autoload": {
+        "classmap": [
+            "database"
+        ],
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/TestCase.php"
+        ]
+    },
+    "scripts": {
+        "post-root-package-install": [
+            "php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ],
+        "post-create-project-cmd": [
+            "php artisan key:generate"
+        ],
+        "post-install-cmd": [
+            "Illuminate\\Foundation\\ComposerScripts::postInstall",
+            "php artisan optimize"
+        ],
+        "post-update-cmd": [
+            "Illuminate\\Foundation\\ComposerScripts::postUpdate",
+            "php artisan optimize"
+        ]
+    },
+    "config": {
+        "preferred-install": "dist"
+    }
+}

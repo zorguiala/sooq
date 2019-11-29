@@ -1,0 +1,54 @@
+{
+  "name": "mollie/laravel-mollie",
+  "description": "Mollie API client wrapper for Laravel & Mollie Connect provider for Laravel Socialite",
+  "homepage": "https://github.com/mollie/laravel-mollie",
+  "license": "BSD-2-Clause",
+  "authors": [
+    {
+      "name": "Mollie B.V.",
+      "email": "info@mollie.com"
+    }
+  ],
+  "keywords": [
+    "mollie", "payment", "service", "ideal", "creditcard", "mistercash", "bancontact", "sofort", "sofortbanking",
+    "sepa", "bitcoin", "paypal", "paysafecard", "podiumcadeaukaart", "banktransfer", "direct debit", "belfius",
+    "belfius direct net", "refunds", "api", "payments", "gateway", "subscriptions", "recurring", "charges",
+    "laravel", "lumen", "socialite"
+  ],
+  "require": {
+    "php": "^5.5.9 || ^7.0",
+    "illuminate/contracts": "^5.0",
+    "illuminate/support": "^5.0",
+    "mollie/mollie-api-php": "^1.9"
+  },
+  "require-dev": {
+    "graham-campbell/testbench": "^3.1",
+    "phpunit/phpunit": "^4.8 || ^5.0",
+    "mockery/mockery": "^0.9.5"
+  },
+  "suggest": {
+    "laravel/socialite": "Use Mollie Connect (OAuth) to authenticate via Laravel Socialite with the Mollie API. This is needed for some endpoints."
+  },
+  "autoload": {
+    "psr-4": {
+      "Mollie\\Laravel\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Mollie\\Laravel\\Tests\\": "tests/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "extra": {
+      "laravel": {
+          "providers": [
+            "Mollie\\Laravel\\MollieServiceProvider"
+          ],
+          "aliases": {
+            "Mollie": "Mollie\\Laravel\\Facades\\Mollie"
+          }
+      }
+  }
+}

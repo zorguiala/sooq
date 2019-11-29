@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Tajawal:500');
+
+body {
+  margin: 0;
+  background: #fff; 
+}
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: 300px;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
+.stopfade { 
+   opacity: .5;
+}
+
+#polina { 
+  font-family: Tajawal, Agenda Light, Agenda, Arial Narrow, sans-serif;
+  background: rgba(0,0,255,0.2);
+  color: white;
+  padding: 2rem;
+  width: 200px;
+  margin-right: 540px;
+  font-size: 1.2rem;
+
+}
+h1 {
+	font-size:20px;
+  text-transform: uppercase;
+  margin-top: 0;
+  	text-align:center;
+
+}
+#polina button { 
+  display: block;
+  width: 80%;
+  padding: .4rem;
+  border: none; 
+  margin: 1rem auto; 
+  font-size: 1.3rem;
+  background: rgba(255,255,255,0.23);
+  color: #fff;
+  border-radius: 3px; 
+  cursor: pointer;
+  transition: .3s background;
+}
+#polina button:hover { 
+   background: rgba(0,0,0,0.5);
+}
+
+a {
+  display: inline-block;
+    width: 100%;
+  color: #ffffff;
+  text-decoration: none;
+  background:rgba(0,0,255,0.3);
+  padding: .5rem;
+  text-align:center;
+  transition: .6s background;
+
+ 
+
+}
+a:hover{
+  color: #0066FF;
+  background:rgba(0,0,0,0.9);
+}
+@media screen and (max-width: 500px) { 
+  div{width:70%;} 
+}
+@media screen and (max-device-width: 800px) {
+  html { background: url(https://thenewcode.com/assets/images/polina.jpg) #000 no-repeat center center fixed; }
+  #bgvid { display: none; }
+}

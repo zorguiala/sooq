@@ -1,0 +1,109 @@
+[19-10-2018 06:29:05] PayPal\Core\PayPalHttpConnection: INFO	: POST https://api.paypal.com/v1/oauth2/token
+[19-10-2018 06:29:06] PayPal\Core\PayPalHttpConnection: INFO	: Response Status 	: 401
+[19-10-2018 06:29:06] PayPal\Core\PayPalHttpConnection: ERROR	: Got Http response code 401 when accessing https://api.paypal.com/v1/oauth2/token. {"error":"invalid_client","error_description":"Client Authentication failed"}
+[01-11-2018 12:26:40] PayPal\Core\PayPalHttpConnection: INFO	: POST https://api.paypal.com/v1/oauth2/token
+[01-11-2018 12:26:41] PayPal\Core\PayPalHttpConnection: INFO	: Response Status 	: 401
+[01-11-2018 12:26:41] PayPal\Core\PayPalHttpConnection: ERROR	: Got Http response code 401 when accessing https://api.paypal.com/v1/oauth2/token. {"error":"invalid_client","error_description":"Client Authentication failed"}
+[02-11-2018 12:35:53] PayPal\Core\PayPalHttpConnection: INFO	: POST https://api.paypal.com/v1/oauth2/token
+[02-11-2018 12:35:54] PayPal\Core\PayPalHttpConnection: INFO	: Response Status 	: 401
+[02-11-2018 12:35:54] PayPal\Core\PayPalHttpConnection: ERROR	: Got Http response code 401 when accessing https://api.paypal.com/v1/oauth2/token. {"error":"invalid_client","error_description":"Client Authentication failed"}
+[02-11-2018 11:55:24] PayPal\Core\PayPalHttpConnection: INFO	: POST https://api.paypal.com/v1/oauth2/token
+[02-11-2018 11:55:25] PayPal\Core\PayPalHttpConnection: INFO	: Response Status 	: 401
+[02-11-2018 11:55:25] PayPal\Core\PayPalHttpConnection: ERROR	: Got Http response code 401 when accessing https://api.paypal.com/v1/oauth2/token. {"error":"invalid_client","error_description":"Client Authentication failed"}
+[03-11-2018 12:05:38] PayPal\Core\PayPalHttpConnection: INFO	: POST https://api.paypal.com/v1/oauth2/token
+[03-11-2018 12:05:39] PayPal\Core\PayPalHttpConnection: INFO	: Response Status 	: 401
+[03-11-2018 12:05:39] PayPal\Core\PayPalHttpConnection: ERROR	: Got Http response code 401 when accessing https://api.paypal.com/v1/oauth2/token. {"error":"invalid_client","error_description":"Client Authentication failed"}
+[03-11-2018 12:10:39] PayPal\Core\PayPalHttpConnection: INFO	: POST https://api.paypal.com/v1/oauth2/token
+[03-11-2018 12:10:40] PayPal\Core\PayPalHttpConnection: INFO	: Response Status 	: 401
+[03-11-2018 12:10:40] PayPal\Core\PayPalHttpConnection: ERROR	: Got Http response code 401 when accessing https://api.paypal.com/v1/oauth2/token. {"error":"invalid_client","error_description":"Client Authentication failed"}
+[03-11-2018 09:25:14] PayPal\Core\PayPalHttpConnection: INFO	: POST https://api.paypal.com/v1/oauth2/token
+[03-11-2018 09:25:15] PayPal\Core\PayPalHttpConnection: INFO	: Response Status 	: 401
+[03-11-2018 09:25:15] PayPal\Core\PayPalHttpConnection: ERROR	: Got Http response code 401 when accessing https://api.paypal.com/v1/oauth2/token. {"error":"invalid_client","error_description":"Client Authentication failed"}
+[04-11-2018 03:11:18] PayPal\Core\PayPalHttpConnection: INFO	: POST https://api.paypal.com/v1/oauth2/token
+[04-11-2018 03:11:19] PayPal\Core\PayPalHttpConnection: INFO	: Response Status 	: 401
+[04-11-2018 03:11:19] PayPal\Core\PayPalHttpConnection: ERROR	: Got Http response code 401 when accessing https://api.paypal.com/v1/oauth2/token. {"error":"invalid_client","error_description":"Client Authentication failed"}
+[04-11-2018 05:49:07] PayPal\Core\PayPalHttpConnection: INFO	: POST https://api.paypal.com/v1/oauth2/token
+[04-11-2018 05:49:08] PayPal\Core\PayPalHttpConnection: INFO	: Response Status 	: 401
+[04-11-2018 05:49:08] PayPal\Core\PayPalHttpConnection: ERROR	: Got Http response code 401 when accessing https://api.paypal.com/v1/oauth2/token. {"error":"invalid_client","error_description":"Client Authentication failed"}
+[04-11-2018 08:19:23] PayPal\Core\PayPalHttpConnection: INFO	: POST https://api.paypal.com/v1/oauth2/token
+[04-11-2018 08:19:24] PayPal\Core\PayPalHttpConnection: INFO	: Response Status 	: 401
+[04-11-2018 08:19:24] PayPal\Core\PayPalHttpConnection: ERROR	: Got Http response code 401 when accessing https://api.paypal.com/v1/oauth2/token. {"error":"invalid_client","error_description":"Client Authentication failed"}
+[04-11-2018 09:23:54] PayPal\Core\PayPalHttpConnection: INFO	: POST https://api.paypal.com/v1/oauth2/token
+[04-11-2018 09:23:56] PayPal\Core\PayPalHttpConnection: INFO	: Response Status 	: 401
+[04-11-2018 09:23:56] PayPal\Core\PayPalHttpConnection: ERROR	: Got Http response code 401 when accessing https://api.paypal.com/v1/oauth2/token. {"error":"invalid_client","error_description":"Client Authentication failed"}
+[04-11-2018 10:14:06] PayPal\Core\PayPalHttpConnection: INFO	: POST https://api.paypal.com/v1/oauth2/token
+[04-11-2018 10:14:08] PayPal\Core\PayPalHttpConnection: INFO	: Response Status 	: 401
+[04-11-2018 10:14:08] PayPal\Core\PayPalHttpConnection: ERROR	: Got Http response code 401 when accessing https://api.paypal.com/v1/oauth2/token. {"error":"invalid_client","error_description":"Client Authentication failed"}
+[05-11-2018 12:20:21] PayPal\Core\PayPalHttpConnection: INFO	: POST https://api.paypal.com/v1/oauth2/token
+[05-11-2018 12:20:22] PayPal\Core\PayPalHttpConnection: INFO	: Response Status 	: 401
+[05-11-2018 12:20:22] PayPal\Core\PayPalHttpConnection: ERROR	: Got Http response code 401 when accessing https://api.paypal.com/v1/oauth2/token. {"error":"invalid_client","error_description":"Client Authentication failed"}
+[05-11-2018 12:31:16] PayPal\Core\PayPalHttpConnection: INFO	: POST https://api.paypal.com/v1/oauth2/token
+[05-11-2018 12:31:17] PayPal\Core\PayPalHttpConnection: INFO	: Response Status 	: 401
+[05-11-2018 12:31:17] PayPal\Core\PayPalHttpConnection: ERROR	: Got Http response code 401 when accessing https://api.paypal.com/v1/oauth2/token. {"error":"invalid_client","error_description":"Client Authentication failed"}
+[05-11-2018 12:52:52] PayPal\Core\PayPalHttpConnection: INFO	: POST https://api.paypal.com/v1/oauth2/token
+[05-11-2018 12:52:53] PayPal\Core\PayPalHttpConnection: INFO	: Response Status 	: 200
+[05-11-2018 12:52:53] PayPal\Core\PayPalHttpConnection: INFO	: POST https://api.paypal.com/v1/payment-experience/web-profiles/
+[05-11-2018 12:52:55] PayPal\Core\PayPalHttpConnection: INFO	: Response Status 	: 201
+[05-11-2018 12:52:55] PayPal\Core\PayPalHttpConnection: INFO	: POST https://api.paypal.com/v1/payments/payment
+[05-11-2018 12:52:56] PayPal\Core\PayPalHttpConnection: INFO	: Response Status 	: 201
+[05-11-2018 12:56:13] PayPal\Core\PayPalHttpConnection: INFO	: POST https://api.paypal.com/v1/oauth2/token
+[05-11-2018 12:56:14] PayPal\Core\PayPalHttpConnection: INFO	: Response Status 	: 200
+[05-11-2018 12:56:14] PayPal\Core\PayPalHttpConnection: INFO	: POST https://api.paypal.com/v1/payment-experience/web-profiles/
+[05-11-2018 12:56:15] PayPal\Core\PayPalHttpConnection: INFO	: Response Status 	: 201
+[05-11-2018 12:56:15] PayPal\Core\PayPalHttpConnection: INFO	: POST https://api.paypal.com/v1/payments/payment
+[05-11-2018 12:56:16] PayPal\Core\PayPalHttpConnection: INFO	: Response Status 	: 201
+[05-11-2018 01:00:41] PayPal\Core\PayPalHttpConnection: INFO	: POST https://api.paypal.com/v1/oauth2/token
+[05-11-2018 01:00:42] PayPal\Core\PayPalHttpConnection: INFO	: Response Status 	: 200
+[05-11-2018 01:00:42] PayPal\Core\PayPalHttpConnection: INFO	: POST https://api.paypal.com/v1/payment-experience/web-profiles/
+[05-11-2018 01:00:43] PayPal\Core\PayPalHttpConnection: INFO	: Response Status 	: 201
+[05-11-2018 01:00:43] PayPal\Core\PayPalHttpConnection: INFO	: POST https://api.paypal.com/v1/payments/payment
+[05-11-2018 01:00:44] PayPal\Core\PayPalHttpConnection: INFO	: Response Status 	: 201
+[05-11-2018 01:03:46] PayPal\Core\PayPalHttpConnection: INFO	: POST https://api.paypal.com/v1/oauth2/token
+[05-11-2018 01:03:47] PayPal\Core\PayPalHttpConnection: INFO	: Response Status 	: 200
+[05-11-2018 01:03:47] PayPal\Core\PayPalHttpConnection: INFO	: POST https://api.paypal.com/v1/payment-experience/web-profiles/
+[05-11-2018 01:03:48] PayPal\Core\PayPalHttpConnection: INFO	: Response Status 	: 201
+[05-11-2018 01:03:48] PayPal\Core\PayPalHttpConnection: INFO	: POST https://api.paypal.com/v1/payments/payment
+[05-11-2018 01:03:49] PayPal\Core\PayPalHttpConnection: INFO	: Response Status 	: 201
+[05-11-2018 01:11:37] PayPal\Core\PayPalHttpConnection: INFO	: POST https://api.paypal.com/v1/oauth2/token
+[05-11-2018 01:11:38] PayPal\Core\PayPalHttpConnection: INFO	: Response Status 	: 200
+[05-11-2018 01:11:38] PayPal\Core\PayPalHttpConnection: INFO	: POST https://api.paypal.com/v1/payment-experience/web-profiles/
+[05-11-2018 01:11:39] PayPal\Core\PayPalHttpConnection: INFO	: Response Status 	: 201
+[05-11-2018 01:11:39] PayPal\Core\PayPalHttpConnection: INFO	: POST https://api.paypal.com/v1/payments/payment
+[05-11-2018 01:11:41] PayPal\Core\PayPalHttpConnection: INFO	: Response Status 	: 201
+[05-11-2018 01:13:18] PayPal\Core\PayPalHttpConnection: INFO	: POST https://api.paypal.com/v1/oauth2/token
+[05-11-2018 01:13:19] PayPal\Core\PayPalHttpConnection: INFO	: Response Status 	: 200
+[05-11-2018 01:13:19] PayPal\Core\PayPalHttpConnection: INFO	: GET https://api.paypal.com/v1/payments/payment/PAYID-LPPZRTI8DM23673NB0921648
+[05-11-2018 01:13:20] PayPal\Core\PayPalHttpConnection: INFO	: Response Status 	: 200
+[05-11-2018 01:13:20] PayPal\Core\PayPalHttpConnection: INFO	: POST https://api.paypal.com/v1/payments/payment/PAYID-LPPZRTI8DM23673NB0921648/execute
+[05-11-2018 01:13:22] PayPal\Core\PayPalHttpConnection: INFO	: Response Status 	: 400
+[05-11-2018 01:13:22] PayPal\Core\PayPalHttpConnection: ERROR	: Got Http response code 400 when accessing https://api.paypal.com/v1/payments/payment/PAYID-LPPZRTI8DM23673NB0921648/execute. {"name":"INSTRUMENT_DECLINED","message":"The instrument presented  was either declined by the processor or bank, or it can't be used for this payment.","information_link":"https://developer.paypal.com/docs/api/payments/#errors","debug_id":"f12b3b0b80364"}
+[05-11-2018 01:21:36] PayPal\Core\PayPalHttpConnection: INFO	: POST https://api.paypal.com/v1/oauth2/token
+[05-11-2018 01:21:37] PayPal\Core\PayPalHttpConnection: INFO	: Response Status 	: 200
+[05-11-2018 01:21:37] PayPal\Core\PayPalHttpConnection: INFO	: POST https://api.paypal.com/v1/payment-experience/web-profiles/
+[05-11-2018 01:21:38] PayPal\Core\PayPalHttpConnection: INFO	: Response Status 	: 201
+[05-11-2018 01:21:38] PayPal\Core\PayPalHttpConnection: INFO	: POST https://api.paypal.com/v1/payments/payment
+[05-11-2018 01:21:40] PayPal\Core\PayPalHttpConnection: INFO	: Response Status 	: 201
+[05-11-2018 01:25:24] PayPal\Core\PayPalHttpConnection: INFO	: POST https://api.paypal.com/v1/oauth2/token
+[05-11-2018 01:25:25] PayPal\Core\PayPalHttpConnection: INFO	: Response Status 	: 200
+[05-11-2018 01:25:25] PayPal\Core\PayPalHttpConnection: INFO	: POST https://api.paypal.com/v1/payment-experience/web-profiles/
+[05-11-2018 01:25:26] PayPal\Core\PayPalHttpConnection: INFO	: Response Status 	: 201
+[05-11-2018 01:25:26] PayPal\Core\PayPalHttpConnection: INFO	: POST https://api.paypal.com/v1/payments/payment
+[05-11-2018 01:25:28] PayPal\Core\PayPalHttpConnection: INFO	: Response Status 	: 201
+[11-03-2019 10:45:33] PayPal\Core\PayPalHttpConnection: INFO	: POST https://api.paypal.com/v1/oauth2/token
+[11-03-2019 10:45:34] PayPal\Core\PayPalHttpConnection: INFO	: Response Status 	: 200
+[11-03-2019 10:45:34] PayPal\Core\PayPalHttpConnection: INFO	: POST https://api.paypal.com/v1/payment-experience/web-profiles/
+[11-03-2019 10:45:34] PayPal\Core\PayPalHttpConnection: INFO	: Response Status 	: 201
+[11-03-2019 10:45:34] PayPal\Core\PayPalHttpConnection: INFO	: POST https://api.paypal.com/v1/payments/payment
+[11-03-2019 10:45:35] PayPal\Core\PayPalHttpConnection: INFO	: Response Status 	: 201
+[21-07-2019 05:03:19] PayPal\Core\PayPalHttpConnection: INFO	: POST https://api.paypal.com/v1/oauth2/token
+[21-07-2019 05:03:20] PayPal\Core\PayPalHttpConnection: INFO	: Response Status 	: 200
+[21-07-2019 05:03:20] PayPal\Core\PayPalHttpConnection: INFO	: POST https://api.paypal.com/v1/payment-experience/web-profiles/
+[21-07-2019 05:03:21] PayPal\Core\PayPalHttpConnection: INFO	: Response Status 	: 201
+[21-07-2019 05:03:21] PayPal\Core\PayPalHttpConnection: INFO	: POST https://api.paypal.com/v1/payments/payment
+[21-07-2019 05:03:22] PayPal\Core\PayPalHttpConnection: INFO	: Response Status 	: 201
+[07-11-2019 09:36:07] PayPal\Core\PayPalHttpConnection: INFO	: POST https://api.paypal.com/v1/oauth2/token
+[07-11-2019 09:36:07] PayPal\Core\PayPalHttpConnection: INFO	: Response Status 	: 200
+[07-11-2019 09:36:07] PayPal\Core\PayPalHttpConnection: INFO	: POST https://api.paypal.com/v1/payment-experience/web-profiles/
+[07-11-2019 09:36:08] PayPal\Core\PayPalHttpConnection: INFO	: Response Status 	: 201
+[07-11-2019 09:36:08] PayPal\Core\PayPalHttpConnection: INFO	: POST https://api.paypal.com/v1/payments/payment
+[07-11-2019 09:36:08] PayPal\Core\PayPalHttpConnection: INFO	: Response Status 	: 201
