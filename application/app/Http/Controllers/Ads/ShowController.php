@@ -172,7 +172,10 @@ class ShowController extends Controller
 			$new_stats->referrer_keyword = $robotName;
 			$new_stats->created_at       = $first_visit;
 			$new_stats->updated_at       = $last_visit;
-			$new_stats->save();
+			if ($isRobot==0) {
+				$new_stats->save();
+			}
+			
 
 			// add new view
 			Ad::where('ad_id', $ad->ad_id)->increment('views');
