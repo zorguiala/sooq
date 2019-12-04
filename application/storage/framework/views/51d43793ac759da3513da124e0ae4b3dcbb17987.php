@@ -8,11 +8,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
     <meta name="description" content="سوق واثق اكبر سوق تجاري اون لاين بالمملكه العربية السعودية بيع وشراء جميع السلع المستخدمه و الجديدة بأرخص الاسعار واقوي العروض والتواصل مع البائع مباشراً">
 	<link rel="shortcut icon" href="<?php echo e(Protocol::home()); ?>/application/public/uploads/settings/favicon/favicon.png">
-		<link href="https://sooqwatheq.co/fares/css/header3.css" rel="stylesheet">
-		<link rel="stylesheet" id="switcher-css" type="text/css" href="https://sooqwatheq.co/fares/plugins/switcher/css/switcher.css" media="all" />
-		<link rel="alternate stylesheet" type="text/css" href="https://sooqwatheq.co/fares/plugins/switcher/css/color4.css" title="color4" media="all" />
-		<link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+	<link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
+ 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
 	<?php echo $__env->yieldContent('seo'); ?>
@@ -32,11 +30,6 @@
 
 	<link href="https://rawgit.com/mendelman/icons/master/icomoon/styles.css" rel="stylesheet" type="text/css">
 
-	<link href="<?php echo e(Protocol::home()); ?>/content/assets/front-end/css/icons/tonicons/style.css" rel="stylesheet" type="text/css">
-
-	<link href="https://rawgit.com/mendelman/icons/master/feather/style.css" rel="stylesheet" type="text/css">
-
-	<link href="<?php echo e(Protocol::home()); ?>/content/assets/front-end/css/icons/material/css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
 
 
 
@@ -71,54 +64,17 @@
 	<!-- StyleSheets -->
 
 
-		<link href="<?php echo e(Protocol::home()); ?>/content/assets/front-end/css/bootstrap-rtl.css?v=1.3.5" rel="stylesheet" type="text/css">
-
-	<link href="<?php echo e(Protocol::home()); ?>/content/assets/front-end/css/core-rtl.css?v=1.3.5" rel="stylesheet" type="text/css">
-
-
-
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
-	<link href="<?php echo e(Protocol::home()); ?>/content/assets/front-end/css/style-rtl.css?v=1.3.5" rel="stylesheet" type="text/css">
-
-
-	<link href="<?php echo e(Protocol::home()); ?>/content/assets/front-end/css/stylesheet.css" rel="stylesheet">
-	<link href="<?php echo e(Protocol::home()); ?>/content/assets/front-end/css/header1.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="<?php echo e(Protocol::home()); ?>/content/assets/front-end/icons/font/flaticon.css">
-
+	<link href="<?php echo e(public_path()); ?>" rel="stylesheet">
 
     <?php echo $__env->yieldContent('styles'); ?>
 
 
 
 	<!-- Core JS files -->
-
 	<script type="text/javascript" src="<?php echo e(Protocol::home()); ?>/content/assets/front-end/js/core/libraries/jquery.min.js"></script>
-
-	<script type="text/javascript" src="<?php echo e(Protocol::home()); ?>/content/assets/front-end/js/core/libraries/jquery_ui/core.min.js"></script>
-
-
-
-	<script type="text/javascript" src="<?php echo e(Protocol::home()); ?>/content/assets/front-end/js/core/app.js"></script>
-
-	<script type="text/javascript" src="<?php echo e(Protocol::home()); ?>/content/assets/front-end/js/plugins/ui/ripple.min.js"></script>
-
-	<script type="text/javascript" src="<?php echo e(Protocol::home()); ?>/content/assets/front-end/js/plugins/forms/styling/uniform.min.js"></script>
-
-	<script type="text/javascript" src="<?php echo e(Protocol::home()); ?>/content/assets/front-end/js/plugins/forms/validation/validate.min.js"></script>
-
 	<?php echo $__env->yieldContent('javascript'); ?>
-
-	<script type="text/javascript" src="<?php echo e(Protocol::home()); ?>/content/assets/front-end/js/plugins/forms/selects/select2.min.js"></script>
-
-	<script type="text/javascript" src="<?php echo e(Protocol::home()); ?>/content/assets/front-end/js/core/libraries/bootstrap.min.js"></script>
-
-	<script type="text/javascript" src="<?php echo e(Protocol::home()); ?>/content/assets/front-end/js/plugins/notifications/noty.min.js"></script>
-
-	<script type="text/javascript" src="<?php echo e(Protocol::home()); ?>/content/assets/front-end/js/core/components.min.js?v=1.2"></script>
-
+	<script type="text/javascript" src="https://localhost/application/public/js/front.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/lib/js/emojione.min.js"></script>
-
-	<script type="text/javascript" src="<?php echo e(Protocol::home()); ?>/content/assets/front-end/js/plugins/loaders/pace.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.js"></script>
 
 

@@ -293,10 +293,6 @@ class ShowController extends Controller
 
         // Schema.org markup for Google+
         SEOMeta::addMeta('name', $ad->title.' | '.$title, 'itemprop');
-        SEOMeta::addMeta('description', strip_tags($ad->description), 'itemprop');
-        if (!empty($ad->photos)):
-            SEOMeta::addMeta('image', Helper::ad_first_image($ad->ad_id, $ad->images_host), 'itemprop');
-        endif;
 
         // Twitter Card data
         SEOMeta::addMeta('twitter:card', 'product', 'name');
@@ -313,12 +309,6 @@ class ShowController extends Controller
         // Open Graph data
         SEOMeta::addMeta('og:title', $ad->title.' | '.$title, 'property');
         SEOMeta::addMeta('og:type', 'product', 'property');
-        SEOMeta::addMeta('og:url', Protocol::home().'/listing/'.$ad->slug, 'property');
-        // if (!empty($ad->photos)):
-        //     SEOMeta::addMeta('og:image', Helper::ad_first_image($ad->ad_id, $ad->images_host), 'property');
-        //     SEOMeta::addMeta('og:image:width', $width, 'property');
-        //     SEOMeta::addMeta('og:image:height', $height, 'property');
-        // endif;
         SEOMeta::addMeta('og:description', strip_tags($ad->description), 'property');
         SEOMeta::addMeta('og:site_name', $title, 'property');
         SEOMeta::addMeta('fb:app_id', config('services.facebook.client_id'), 'property');
