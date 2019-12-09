@@ -379,6 +379,7 @@
                 country_id: country_id
             },
             success: function (response) {
+                console.log(response);
                 if (response.status == 'success') {
 
                     // Check if states enabled
@@ -435,6 +436,8 @@
                 state_id: state_id
             },
             success: function (response) {
+                console.log(response);
+                
                 if (response.status == 'success') {
                     $('#putCities').find('option').remove();
                     $('#putCities').append($('<option>', {

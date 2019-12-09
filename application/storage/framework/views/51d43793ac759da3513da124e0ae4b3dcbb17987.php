@@ -64,7 +64,7 @@
 	<!-- StyleSheets -->
 
 
-	<link href="<?php echo e(public_path()); ?>" rel="stylesheet">
+	<link href="https://localhost/application/public/css/front.css" rel="stylesheet">
 
     <?php echo $__env->yieldContent('styles'); ?>
 
