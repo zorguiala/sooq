@@ -480,12 +480,18 @@
 					</div>
 
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-6" style="padding: 30px;">
+					<img src="{{ Protocol::home() }}/content/assets/front-end/icons/svg/coins.svg" width="60" alt="">
+					<h3 style="color: red; font-weight: 700;float: right;">{{ Helper::getPriceFormat($ad->price, $ad->currency) }}</h3>
 				<div class="">
-						<h2 style="margin-top: 26% !important;margin-bottom: 25px;">{{ $ad->title }}</h2>
+						<h2 style="	margin-top: 3% !important;	padding-top: 5%;	margin-bottom: 25px;			border-top: 1px solid #d6d6d6;		padding-bottom: 8%;	border-bottom: 1px solid #d6d6d6;">
+							{{ $ad->title }}
+						</h2>
 
-						<img src="{{ Protocol::home() }}/content/assets/front-end/icons/svg/coins.svg" width="70" alt="">
-						<h3 style="color: red; font-weight: 700;float: right;">{{ Helper::getPriceFormat($ad->price, $ad->currency) }}</h3>
+						<a href="{{ Helper::get_category($ad->category, true) }}" dir="ltr">
+							<img style="float: right;"  src="{{ Protocol::home() }}/content/assets/front-end/icons/svg/tag.svg" width="30" alt="">
+							<h4 style="text-align: center;">{{ Helper::get_category($ad->category) }}</h4>
+						</a>
 				</div>
 			
 		</div>

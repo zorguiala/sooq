@@ -20,14 +20,14 @@
                     <span class="title">لوحه القيادة</span>
                 </a>
             </li>
-            <!-- <li class="nav-item  ">
+            <li class="nav-item  ">
                 <a href="{{ Protocol::home() }}/dashboard/ads" class="nav-link nav-toggle">
                     <i class="icon-layers"></i>
                     <span class="title">إعدادات الإعلانات</span>
                 </a>
             </li>
 
-            Blog Articles -->
+            
             <li class="nav-item  ">
                 <a href="{{ Protocol::home() }}/dashboard/articles" class="nav-link nav-toggle">
                     <i class="icon-feed"></i>

@@ -90,61 +90,61 @@ class HomeController extends Controller
 		
 		
 		// Get Countries
-		$countries      = Country::all();
+		// $countries      = Country::all();
 		
 		// Get Random 12 countries
-		$rand_countries = Country::orderByRaw('RAND()')->take(12)->get();
+		// $rand_countries = Country::orderByRaw('RAND()')->take(12)->get();
 		
 		// Get Quick Stats
-		$total_ads      = Ad::count();
-		$total_views    = Stats::count();
-		$total_stores   = DB::table('stores')->count();
-		$total_users    = User::count();
+		// $total_ads      = Ad::count();
+		// $total_views    = Stats::count();
+		// $total_stores   = DB::table('stores')->count();
+		// $total_users    = User::count();
 		
-		// Get GEO Settings
-		$settings_geo  = Helper::settings_geo();
+		// // Get GEO Settings
+		// $settings_geo  = Helper::settings_geo();
 
-		// Check if this site config for a international
-		if ($settings_geo->is_international) {
+		// // Check if this site config for a international
+		// if ($settings_geo->is_international) {
 
-			$countries = Country::all();
+		// 	$countries = Country::all();
 
-		}else{
+		// }else{
 
-			// Get States
-			$countries = Country::where('id', $settings_geo->default_country)->get();
+		// 	// Get States
+		// 	$countries = Country::where('id', $settings_geo->default_country)->get();
 
-		}
+		// }
 
-		$states    = State::where('country_id', $settings_geo->default_country)->get();
-		$cities    = City::where('state_id', $settings_geo->default_state)->get();
+		// $states    = State::where('country_id', $settings_geo->default_country)->get();
+		// $cities    = City::where('state_id', $settings_geo->default_state)->get();
 
 		// send data
 		$data = array(
 			'latest_ads'     => $latest_ads, 
 			'featured_ads'   => $featured_ads,
-			'countries'      => $countries,
-			'cities'         => $cities,
-			'rand_countries' => $rand_countries,
-			'states'         => $states,
-			'total_ads'      => $total_ads,
-			'total_views'    => $total_views,
-			'total_stores'   => $total_stores,
-			'total_users'    => $total_users,
-			'settings_geo'   => $settings_geo,
+			// 'countries'      => $countries,
+			// 'cities'         => $cities,
+			// 'rand_countries' => $rand_countries,
+			// 'states'         => $states,
+			// 'total_ads'      => $total_ads,
+			// 'total_views'    => $total_views,
+			// 'total_stores'   => $total_stores,
+			// 'total_users'    => $total_users,
+			// 'settings_geo'   => $settings_geo,
 		);
 
 		// Get Tilte && Description
-		$title      = Helper::settings_general()->title;
-		$short_desc = Helper::settings_general()->description;
-		$long_desc  = Helper::settings_seo()->description;
-		$keywords   = Helper::settings_seo()->keywords;
+		// $title      = Helper::settings_general()->title;
+		// $short_desc = Helper::settings_general()->description;
+		// $long_desc  = Helper::settings_seo()->description;
+		// $keywords   = Helper::settings_seo()->keywords;
 
-		// Manage SEO
-		SEO::setTitle($title.' | '.$short_desc);
-        SEO::setDescription($long_desc);
-        SEO::opengraph()->setUrl(Protocol::home());
-        SEOMeta::addKeyword([$keywords]);
+		// // Manage SEO
+		// SEO::setTitle($title.' | '.$short_desc);
+        // SEO::setDescription($long_desc);
+        // SEO::opengraph()->setUrl(Protocol::home());
+        // SEOMeta::addKeyword([$keywords]);
 
 		// Show Home Page
 		return view($this->theme.'.index')->with($data);

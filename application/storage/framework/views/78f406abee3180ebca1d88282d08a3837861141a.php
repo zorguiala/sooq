@@ -19,7 +19,7 @@
 			<aside id="column-left" class="col-sm-3 col-xs-12" style="display: none;">
 				<div class="col-order-inner">
 					<div class="list-group list-categories" DIR="RLT">
-						<h3>Categories</h3>
+						<h3 style="text-align: center;">Categories</h3>
 						<div class="list-categories-content">
 							<a href="index.html" class="list-group-item"> Games &amp; Consoles <span>12</span></a>
 							<a href="index.html" class="list-group-item">Appliances <span>0</span></a>

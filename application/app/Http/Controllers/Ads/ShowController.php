@@ -407,15 +407,15 @@ class ShowController extends Controller
 		}
 
 		// Get Tilte && Description
-		$title      = Helper::settings_general()->title;
-		$long_desc  = Helper::settings_seo()->description;
-		$keywords   = Helper::settings_seo()->keywords;
+		// $title      = Helper::settings_general()->title;
+		// $long_desc  = Helper::settings_seo()->description;
+		// $keywords   = Helper::settings_seo()->keywords;
 
 		// Manage SEO
-		SEO::setTitle(__('title.lang_browse_all').' | '.$title);
-        SEO::setDescription($long_desc);
-        SEO::opengraph()->setUrl(Protocol::home().'/browse');
-        SEOMeta::addKeyword([$keywords]);
+		// SEO::setTitle(__('title.lang_browse_all').' | '.$title);
+        // SEO::setDescription($long_desc);
+        // SEO::opengraph()->setUrl(Protocol::home().'/browse');
+        // SEOMeta::addKeyword([$keywords]);
 		foreach ($ads as &$value) {
 		    $date  = time();
 		    $time = strtotime($value->created_at);
